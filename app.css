@@ -1,1 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Dosis&family=Indie+Flower&family=Zen+Loop&display=swap');
+
+*{
+    background-color: rgb(230, 176, 176);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 70rem;
+    margin: 0 auto;
+    padding: 30px;
+    border-style: dotted;
+    border-width: 3px;
+    border-color: rgb(232, 150, 150);
+    border-radius: 20px;
+    background-color: whitesmoke;
+    padding-bottom: 150px;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    margin-top: 40px;
+    background-color: whitesmoke;
+}
+
+.container h1 {
+    background-color: whitesmoke;
+    font-size: 90px;
+    font-style: italic;
+    color: rgb(232, 150, 150);
+    font-family: 'Zen Loop', cursive;
+    letter-spacing: 6px;
+}
+
+input{
+    width: 500px;
+    padding: 10px;
+    font-size: 23px;
+    border-radius: 2px;
+    border: none;
+    margin-bottom: 20px;
+    font-style: italic;
+    font-weight: bold;
+    color: white;
+    font-family: 'Zen Loop', cursive;
+    letter-spacing: 3px;
+    background: linear-gradient(rgb(241, 208, 208), rgb(245, 233, 233));
+    outline-color: rgb(232, 150, 150);
+    outline-style: double;
+    outline-width: 5px;
+    box-shadow: 0 0.1rem 1.4rem 0 rgba(232, 150, 150, 0.3);
+}
+
+input::placeholder{
+    color: rgb(148, 148, 148);
+    text-align: center;
+}
+
+input:hover{
+    box-shadow: 0 12px 22px 0 rgba(232, 150, 150, 0.3);
+    transition: transform 150ms ease-out;
+    transform: scale(1.03);
+}
+
+label{
+    background-color: whitesmoke;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 5px;
+    font-family: 'Zen Loop', cursive;
+    letter-spacing: 2px;
+}
+
+select{
+    width: 500px;
+    padding: 10px;
+    font-size: 23px;
+    letter-spacing: 3px;
+    border-radius: 2px;
+    border: none;
+    text-align: center;
+    font-family: 'Zen Loop', cursive;
+    margin-bottom: 10px;
+    font-style: italic;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(rgb(241, 208, 208), rgb(245, 233, 233));
+    outline-color: rgb(232, 150, 150);
+    outline-style: double;
+    outline-width: 5px;
+    box-shadow: 0 0.1rem 1.4rem 0 rgba(232, 150, 150, 0.3);
+}
+
+select:invalid{
+    color: rgb(148, 148, 148);
+    outline-color: rgb(232, 150, 150);
+    outline-style: double;
+    outline-width: 5px;
+}
+
+select:hover{
+    box-shadow: 0 12px 22px 0 rgba(232, 150, 150, 0.3);
+    transition: transform 150ms ease-out;
+    transform: scale(1.03);
+}
+
+option{
+    color: black;
+    font-weight: bold;
+    font-size: 23px;
+    letter-spacing: 4px;
+    font-family: 'Zen Loop', cursive;
+    background-color: rgb(241, 208, 208);
+}
+
+#submit{
+    width: 300px;
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 5px;
+    border: none;
+    color: rgb(232, 150, 150);
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 10px;
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 100px;
+    align-items: center;
+}
+
+#submit:hover{
+    cursor: pointer;
+}
+
+#accept-terms-lb{
+    margin-top: 30px;
+}
+
+#accept-terms{
+    background-color: whitesmoke;
+    box-shadow: 0 0.1rem 1.4rem 0 whitesmoke;
+    outline-color: none;
+    outline-style: none;
+    transform: scale(1.5);
+}
+
+#age{
+    width: 300px;
+}
 
