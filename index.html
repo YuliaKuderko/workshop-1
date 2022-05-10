@@ -7,39 +7,35 @@
     </head>
     <body>
         <div class="container">
+            <img id="logo" src="monday_logo.gif" alt="logo">
             <h1>Monday-U Registration Form</h1>
             <form class="form-container">
-                <label for="fullname">Full Name</label>
-                <input id="fullname" type="text" placeholder="Enter your full name" required>
-                <label for="username">Username</label>
-                <input id="username" type="text" placeholder="Enter your username" required minlength="6" pattern="^[a-zA-Z1-9].*">
-                <label for="password">Password</label>
-                <input id="password" type="password" required minlength="8">
-                <label for="age">Age</label>
-                <input id="age" type="number" placeholder="Ex. 1234" required min="8" max="120">
-                <label for="email">Email</label>
-                <input id="email" type="email" placeholder="monday@gmail.com" required>
-                <label for="gender">Gender</label>
-                <select id="gender" name="" required>
-                    <option disabled selected hidden value="">Choose Gender</option>
-                    <option value="">Female</option>
-                    <option value="">Male</option>
-                    <option value="">Other</option>
-                    <option value="">Refuse to state</option>
-                </select>
-                <label id="accept-terms-lb" for="accept-terms">Accept terms and conditions</label>
-                <input id="accept-terms" type="checkbox" required>
+                <section class="cells">
+                    <label for="fullname">Full Name</label>
+                    <input id="fullname" type="text" placeholder="Enter your full name" required>
+                    <label for="username">Username</label>
+                    <input id="username" type="text" placeholder="Enter your username" required minlength="6" pattern="^[a-zA-Z1-9].*">
+                    <label for="password">Password</label>
+                    <input id="password" type="password" required minlength="8">
+                    <label for="age">Age</label>
+                    <input id="age" type="number" placeholder="Ex. 1234" required min="8" max="120">
+                    <label for="email">Email</label>
+                    <input id="email" type="email" placeholder="monday@gmail.com" required>
+                    <label for="gender">Gender</label>
+                    <select id="gender" name="" required>
+                        <option disabled selected hidden value="">Choose Gender</option>
+                        <option value="">Female</option>
+                        <option value="">Male</option>
+                        <option value="">Other</option>
+                        <option value="">Refuse to state</option>
+                    </select>
+                    <section class="accept">
+                        <label for="accept-terms">Accept terms and conditions</label>
+                        <input id="accept-terms" type="checkbox" required>    
+                    </section>
+                </section>
                 <input id="submit" type="submit" value="Submit">
             </form>
-
-
-
-
-
-
-
-
-
         </div>
     </body>
 </html>
