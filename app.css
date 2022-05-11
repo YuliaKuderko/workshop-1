@@ -28,7 +28,7 @@ body{
     background-color: whitesmoke;
 }
 
-.cells{
+.cells-to-fill{
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -47,26 +47,28 @@ body{
 }
 
 input{
-    width: 500px;
+    width: 550px;
     padding: 10px;
-    font-size: 23px;
+    font-size: 25px;
     border-radius: 2px;
     border: none;
     margin-bottom: 20px;
     font-style: italic;
     font-weight: bold;
-    color: white;
+    color: rgb(235, 114, 114);
     font-family: 'Zen Loop', cursive;
     letter-spacing: 3px;
     background: linear-gradient(rgb(241, 208, 208), rgb(245, 233, 233));
     outline-color: rgb(232, 150, 150);
     outline-style: double;
     outline-width: 5px;
+    text-align: center;
     box-shadow: 0 0.1rem 1.4rem 0 rgba(232, 150, 150, 0.3);
 }
 
 input::placeholder{
-    color: rgb(148, 148, 148);
+    color: rgb(157, 157, 157);
+    font-weight: bold;
     text-align: center;
 }
 
@@ -78,15 +80,16 @@ input:hover{
 
 label{
     background-color: whitesmoke;
-    font-size: 30px;
+    font-size: 33px;
     font-weight: bold;
     padding: 5px;
+    color: rgb(96, 96, 96);
     font-family: 'Zen Loop', cursive;
     letter-spacing: 2px;
 }
 
 select{
-    width: 500px;
+    width: 520px;
     padding: 10px;
     font-size: 23px;
     letter-spacing: 3px;
@@ -97,7 +100,7 @@ select{
     margin-bottom: 10px;
     font-style: italic;
     font-weight: bold;
-    color: white;
+    color: rgb(235, 114, 114);
     background: linear-gradient(rgb(241, 208, 208), rgb(245, 233, 233));
     outline-color: rgb(232, 150, 150);
     outline-style: double;
@@ -159,7 +162,6 @@ option{
     outline-color: none;
     outline-style: none;
     transform: scale(1.5);
-    text-align: left;
 }
 
 #age{
